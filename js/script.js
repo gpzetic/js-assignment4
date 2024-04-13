@@ -20,6 +20,7 @@ function playAudio(url) {
   console.log("audio is playing");
 }
 
+// Link for docs: https://elevenlabs.io/docs/api-reference/text-to-speech
 // Get available voices from API and populate options
 const voices = document.getElementById("voices"); // Reference to voices dropdown
 fetch("https://api.elevenlabs.io/v1/voices")
