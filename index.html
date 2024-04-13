@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text To Speech</title>
+        <script src="js/script.js" defer></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <h1>Text to speech API</h1>
+        <p id="student"></p>
+        <div>
+            <label for="voices">Select a voice</label>
+            <select id="voices"></select>
+            <label for="words">Enter your text</label>
+            <textarea id="words" cols="50" rows="8"></textarea>
+            <label for="stability">Stability</label>
+            <input type="range" min="0.1" max="1" id="stability" step="0.1" value="1">
+            <label for="style">Style</label>
+            <input type="range" min="0.1" max="1" id="style" step="0.1" value="0.5">
+        </div>
+        <button id="play">Play</button>
+    </body>
+</html>
